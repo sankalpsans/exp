@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<title>KeepTrack</title>
+		<link href="gui/css/style.css" rel="stylesheet" />
+		<script type = "text/javascript" src = "gui/js/jq.js"></script>
+		<script type = "text/javascript" src = "gui/js/scripts.js"></script>
+		
+	</head>
+	<body>
+		<div class = "wrap">
+			<div class = "box">
+				<div class = "content">
+					<div class = "keep">
+						I spent <input type = "text" class = "input begin number">
+					</div>
+					<div class = "keep">
+						<select id = "day">
+							<option value = "-2" selected = "selected">2 days ago</option>
+							<option value = "-1" selected = "selected">Yesterday</option>
+							<option value = "0" selected = "selected">Today</option>
+						</select>
+						<input type = "button" onClick ="get_(1)" value = "Get Exp No. 1">
+					</div>
+				</div>
+			</div>
+			<div class = "box">
+				<div class = "eat category">
+					<div class = "val">Food</div><div class = "edit_val_div"><input type = "text" class = "edit_value number"/></div>
+				</div>
+				<div class = "travel category">
+					<div class = "val">Travel</div><div class = "edit_val_div"><input type = "text" class = "edit_value number"/></div>
+				</div>
+				<div class = "party category">
+					<div class = "val">Party</div><div class = "edit_val_div"><input type = "text" class = "edit_value number"/></div>
+				</div>
+				<div class = "lent category">
+					<div class = "val">Lent to a Buddy</div><div class = "edit_val_div"><input type = "text" class = "edit_value number"/></div>
+				</div>
+				<div class = "unaccounted category">
+					<div class = "val">Unaccounted</div><div class = "edit_val_div"><input type = "text" class = "number unacc"/></div>
+				</div>
+				
+					
+			</div>
+			<div style = "padding: 30px;
+margin-top: 10px;
+margin-left: auto;
+width: 192px;
+clear: both;
+margin-right: auto;">
+						<input type = "button" class = "large btn invalid proceed" value = "Proceed" style = "color: white;
+background-color: #0271BF;
+background-repeat: repeat-x;
+background-image: -khtml-gradient(linear,left top,left bottom,from(#2DADDC),to(#0271BF));
+background-image: -moz-linear-gradient(#2DADDC,#0271BF);
+background-image: -ms-linear-gradient(#2DADDC,#0271BF);
+background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#2DADDC),color-stop(100%,#0271BF));
+background-image: -webkit-linear-gradient(#2DADDC,#0271BF);
+background-image: -o-linear-gradient(#2DADDC,#0271BF);
+background-image: linear-gradient(#2DADDC,#0271BF);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2daddc',endColorstr='#0271bf',GradientType=0);
+border-color: #096EB3;">
+			</div>
+		</div>
+	</body>
+		

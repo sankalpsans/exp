@@ -1,0 +1,149 @@
+@font-face
+{
+font-family: verdana;
+src: url('../verdana.ttf'),
+ url('../verdana.ttf'); /* IE9+ */
+}
+
+*{
+ margin:0px 0px 0px 0px;
+ padding:0px 0px 0px 0px;
+ border: 0px 0px 0px 0px;
+ color:white;
+ font-family: verdana;
+ outline:0px;
+}
+
+body{
+ background: #2B5C8D;
+}
+.wrap{
+ background: #4579B1;
+ width:700px; height:300px; margin-left:auto; margin-right:auto;
+ margin-top:60px;
+}
+
+
+input, select, option{
+font-size: 23px;
+width: 120px;
+height:30px;
+color:#aaa;
+padding-left: 12px;
+}
+
+select{
+font-size: 20px;
+width: 155px;
+}
+
+.box{
+ color:#99bde5;
+ width:350px;
+ height:100%;
+ float:left;
+ background:#4173A9;
+ opacity:.4;
+}
+
+.box:hover{
+ background:#3870A6;
+ opacity:1;
+} 
+.hovered{
+ background:#3870A6;
+ opacity:1;
+}
+
+.content{
+ padding:30px;
+ color:#99bde5;
+ margin-top: 45px;
+ margin-left: 25px;
+}
+
+.btn{
+ font-size:20px;
+ color:#2B5C8D;
+ width:192px;
+}
+
+.large{
+ height:40px;
+}
+
+.keep{
+ display:block;
+ height:50px;
+}
+select{
+ width: 192px;
+}
+
+.category{
+ display:block;
+ height: 50px;
+ clear:both;
+ border-bottom:solid 1px #60A2C2;
+}
+
+
+/*
+ *	Categories
+ *
+ */
+.eat{
+ background:url('../../gui/images/eat.png') no-repeat;
+ background-position-x: 10px;
+}
+
+.travel{
+ background:url('../../gui/images/travel.png') no-repeat;
+ background-position-x: 10px;
+}
+
+.party{
+ background:url('../../gui/images/party.png') no-repeat;
+ background-position-x: 10px;
+}
+
+.unaccounted{
+ background:url('../../gui/images/question.png') no-repeat;
+ background-position-x: 10px;
+}
+.lent{
+ background:url('../../gui/images/lent.png') no-repeat;
+ background-position-x: 10px;
+}
+
+.val{
+ margin-left: 60px;
+ padding-top: 16px;
+ clear:left;
+ float: left;
+}
+
+.edit_val_div{
+ float: right;
+display: inline;
+margin-top: 9px;
+margin-right: 9px;
+}
+
+
+
+input:hover, input:focus, select:hover, select:focus{
+	background:#ddd;
+}
+
+input.invalid{
+	background:#854747;
+	color:white;
+	padding-left:0px;
+}
+
+input.valid{
+	padding-left:0px;
+	background:#60997B;
+	color:white;
+}
